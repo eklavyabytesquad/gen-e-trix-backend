@@ -6,8 +6,6 @@ from datetime import datetime
 import os
 from flask_cors import CORS
 from PIL import Image, ImageDraw, ImageFont
-import requests
-from io import BytesIO
 import random
 
 app = Flask(__name__)
